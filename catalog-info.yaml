@@ -1,0 +1,12 @@
+# This file records information about this repo. Its use is described in OEP-55:
+# https://open-edx-proposals.readthedocs.io/en/latest/processes/oep-0055-proc-project-maintainers.html
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  # (Required) Must be the name of the repo, without the owning organization.
+  name: 'webhook-test-repo'
+spec:
+  owner: group:axim-admins
+  type: 'library'
+  lifecycle: 'production'
